@@ -12,7 +12,6 @@ public class Start {
      * Méthode principale du programme. Choix du mode de jeu.
      */
     public static void main(String[] args) {
-        System.out.println("Bienvenue dans le jeu Marienbad !");
         try {
             // Vide la console pour l'affichage du jeu.
             new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
